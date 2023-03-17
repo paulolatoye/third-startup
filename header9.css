@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    font-weight: 700;
+    color: #1E0E62;
+}
+
+.overV{
+    opacity: 0.3;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0E62;
+}
+
+
+.act-btn{
+    outline: none;
+    border: 2px solid #EBEAED;
+    background: none;
+    border-radius: 100px;
+    color: #1E0E62;
+    height: 40px;
+    padding: 20px;
+    width: 120px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.row{
+    margin-top: 100px;
+}
+
+.app-desc {
+    position: relative;
+    width: 50%;
+    left: 30px;
+}
+
+.app-desc h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    letter-spacing: -1.5px;
+    color: #1E0E62;
+    margin-bottom: 15px;
+}
+
+.app-desc p {
+    margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.action-btn{
+    margin-top: 20px;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-style: normal;
+    position: absolute;
+    display: block;
+    background: #482BE7;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 300;
+    height: 50px;
+    width: 190px;
+    outline: none;
+    border: none;
+}
+
+.app-image{
+    position: relative;
+    width: 50%;
+    left: 155px;
+}
+
+.page-img {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    /* left: 63px; */
+    top: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 105%;
+    }
+
+    .row{
+        margin-top: 40px;
+    }
+
+    .app-desc, .app-image{
+        width: 100%;
+        float: none;
+    }
+
+    .app-desc h2 {
+        font-size: 52px
+    }
+
+    .page-img{
+        top: 105px;
+        left: -128px;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .act-btn{
+        position: relative;
+        width: 23%;
+        right: 430px;
+    }
+
+}
