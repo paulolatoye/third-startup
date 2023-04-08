@@ -14,7 +14,6 @@ body {
 
 .container{
     max-width: 1140px;
-
 }
 
 .navbar-light .navbar-brand {
@@ -128,12 +127,6 @@ body {
     background-color: aquamarine;
 }
 
-/* .app-image{
-    position: relative;
-    width: 50%;
-    left: 155px;
-} */
-
 .page-img {
     position: relative;
     width: 420px;
@@ -142,7 +135,15 @@ body {
     left: 105px;
 }
 
+@media screen and (max-width: 1024px) {
 
+    .page-img {
+        right: 0;
+        left: 45px;
+        top: -25px;
+    }
+    
+}
 
 
 @media screen and (max-width: 768px) {
@@ -197,11 +198,16 @@ body {
         line-height: 45px;
     }
 
+    .app-img {
+        position: relative;
+        bottom: 20px;
+    }
+
     .page-img{
-        top: 105px;
-        left: 10px;
-        width: 650px;
-        height: 650px;
+        top: 125px;
+        left: 8px;
+        width: 706px;
+        height: 705px;
     }
 
 }
@@ -211,7 +217,7 @@ body {
     .container {
         margin: 15px;
         padding: 0;
-        max-width: 355px;
+        width: 88%;
     }
 
     br{
@@ -220,7 +226,7 @@ body {
 
     .hamburger{
         display: flex;
-        right: 30px;
+        right: 4px;
     }
 
     .nav{
